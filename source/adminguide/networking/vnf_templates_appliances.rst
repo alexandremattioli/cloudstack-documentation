@@ -17,14 +17,14 @@
 VNF Templates and Appliances
 ============================
 
-Virtualized Network Functions (VNFs) refers to virtualized software applications
-which offers network services, for example routers, firewalls, load balancers.
+Virtualized Network Functions (VNFs) refer to virtualized software applications
+which offers network services, for example: routers, firewalls, load balancers, etc.
 
 
 Adding a VNF template from an URL
 -----------------------------------------------------------
 
-To create a VNF appliance, user needs to register a VNF template and add VNF settings.
+To create a VNF appliance, an user needs to register a VNF template and add VNF settings.
 
 #. Log in to the CloudStack UI as an administrator or end user.
 
@@ -83,17 +83,17 @@ Users need to add the VNF nics and VNF details of the VNF templates.
 
    The following parameters are supported.
 
-   - deviceid: The device ID of the VNF nic. The device id must be consecutive and start from 0.
+   - deviceid: The device ID of the VNF nic. The device IDs must be consecutive and start from 0.
 
-   - name: The name of the VNF nic.
+   - name: The name of the VNF NIC.
 
-   - required: True if the VNF nic is required. Otherwise it is optional. It cannot be true if a preceding nic is optional.
+   - required: True if the VNF NIC is required. Otherwise it is optional. It cannot be true if a preceding NIC is optional.
 
-   - management: True if the VNF nic is a management interface. False otherwise
+   - management: True if the VNF NIC is a management interface. False otherwise
 
-   - description: The description of the VNF nic.
+   - description: The description of the VNF NIC.
 
-   When VNF nics are added, users will see the list of VNF nics.
+   When VNF NICs are added, users will see the list of VNF NICs.
 
    |vnf-nics-list.png|
 
@@ -101,13 +101,13 @@ Users need to add the VNF nics and VNF details of the VNF templates.
 
    |vnf-add-detail.png|
 
-   The following parameters are supported.
+   The following parameters are supported:
 
    - name: The name of the VNF detail. The valid values are: ACCESS_METHODS,
      USERNAME, PASSWORD, SSH_USER, SSH_PASSWORD, SSH_PORT, WEB_USER, WEB_PASSWORD,
      HTTP_PATH, HTTP_PORT, HTTPS_PATH, HTTPS_PORT, ICON, VERSION, VENDOR and MAINTAINER
 
-   - value: The value of the VNF detail. If the name is access_methods, the valid values are: console, http, https, ssh-key, ssh-password
+   - value: The value of the VNF detail. If the name is access_methods, the valid values are: console, http, https, ssh-key and ssh-password.
 
 #. To edit or remove VNF details, click on the corresponding icon of each VNF detail.
 
@@ -130,12 +130,12 @@ Deploying VNF appliances
 
    |vnf-appliance-networks-selection.png|
 
-#. In the "VNF nics" step, choose the network each VNF nic will use
+#. In the "VNF NICs" step, choose the network which each VNF NIC will use
 
    |vnf-appliance-vnf-nics.png|
 
    The following parameters are supported, if the management network is an Isolated
-   network or Shared network with security groups.
+   network or Shared network with security groups:
 
    - Configure rules for VNF management interfaces. False by default.
 
@@ -146,15 +146,15 @@ Deploying VNF appliances
    .. note::
      The following network rules will be applied.
 
-     - If management network is an isolated network, CloudStack will acquire a public
+     - If the management network is an Isolated network, CloudStack will acquire a public
        IP, enable static nat on the VNF appliance, and create firewall rules to allow
        traffic to ssh/http/https ports based on access_methods in VNF template details.
 
-     - If management network is a shared network with security groups, CloudStack will
+     - If the management network is a Shared network with security groups, CloudStack will
        create a new security group with rules to allow traffic to ssh/http/https ports
        based on access_methods in VNF template details, and assign to the VNF appliance.
 
-     - If management network is a L2 network, VPC tier or Shared network without security
+     - If the management network is an L2 network, VPC tier or Shared network without security
        groups, no network rules will be configured.
 
 
