@@ -83,7 +83,7 @@ Initial setup of your fork
 
 In your browser, navigate to: https://github.com/apache/cloudstack-documentation
 
-Fork this repository by clicking on the 'Fork' button on the top right hand side.  The fork will happen and you will be taken to your own fork of the repository.  On the right hand side of the page of your fork, under 'HTTPS clone URL', copy the URL to your clipboard by clicking the the clipboard just right of the URL.
+Fork this repository by clicking on the 'Fork' button on the top right hand side.  The fork will happen and you will be taken to your own fork of the repository.  On the right hand side of the page of your fork, under 'HTTPS clone URL', copy the URL to your clipboard by clicking the clipboard icon just to the right of the URL.
 
 On your computer, follow these steps to setup a local repository for working on the documentation:
 

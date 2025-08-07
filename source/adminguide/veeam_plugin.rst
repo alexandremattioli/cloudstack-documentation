@@ -78,7 +78,7 @@ Creating Template jobs
 ----------------------
 
 #. As noted above, a dummy VM tag is required in order to create Template jobs which don't contain any Instances.  This is done via vCenter
-   by navigating to the 'Tags and Custom Attributes' section, and first creating a category (if you dont already have a suitable one).
+   by navigating to the 'Tags and Custom Attributes' section, and first creating a category (if you don't already have a suitable one).
 
    |BnR-DummyTagCategory.jpg|
 

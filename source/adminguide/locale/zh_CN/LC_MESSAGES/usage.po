@@ -1294,7 +1294,7 @@ msgstr "模版、ISO和快照用量记录格式"
 
 # 60eda22a3c7d4756847f64ff53b961e2
 #: ../../usage.rst:641
-msgid "usageid – The ID of the the template, ISO, or snapshot"
+msgid "usageid – The ID of the template, ISO, or snapshot"
 msgstr "usageid - 模版、ISO或快照的ID"
 
 # 3562063eefc04af28187703974e45228

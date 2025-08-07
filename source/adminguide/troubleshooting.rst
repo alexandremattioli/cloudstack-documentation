@@ -268,7 +268,7 @@ Trouble Shooting Steps
       kvm2 ~$ ifconfig eth0.64 1.2.3.5 netmask 255.255.255.0 up
       kvm2 ~$ ping 1.2.3.4
 
-   If the pings dont work, run *tcpdump(8)* all over the place to check
+   If the pings don't work, run *tcpdump(8)* all over the place to check
    who is gobbling up the packets. Ultimately, if the switches are not
    configured correctly, CloudStack networking won't work so fix the
    physical networking issues before you proceed to the next steps
@@ -342,7 +342,7 @@ Trouble Shooting Steps
    the public interface and CloudStack has correctly created the virtual
    interfaces bridge. This virtual interface to physical interface mapping
    is done automatically by CloudStack using the traffic label settings for
-   the Zone. If you have provided correct settings and still dont have a
+   the Zone. If you have provided correct settings and still don't have a
    working Internet, check the switching layer before you debug any
    further. You can verify traffic using tcpdump on the virtual, physical
    and bridge interfaces.

@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../qig.rst:221
 # 7dcd6b5f047c4747b5663a3ea0a586bb
-msgid "NTP configuration is a necessity for keeping all of the clocks in your cloud servers in sync. However, NTP is not installed by default. So we'll install and and configure NTP at this stage. Installation is accomplished as follows:"
+msgid "NTP configuration is a necessity for keeping all of the clocks in your cloud servers in sync. However, NTP is not installed by default. So we'll install and configure NTP at this stage. Installation is accomplished as follows:"
 msgstr ""
 
 #: ../../qig.rst:229
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../qig.rst:246
 # ccc1c3b2524242c3b7b2f4646644974f
-msgid "The Apache CloudStack official releases are source code. As such there are no 'official' binaries available. The full installation guide describes how to take the source release and generate RPMs and and yum repository. This guide attempts to keep things as simple as possible, and thus we are using one of the community-provided yum repositories."
+msgid "The Apache CloudStack official releases are source code. As such there are no 'official' binaries available. The full installation guide describes how to take the source release and generate RPMs and a yum repository. This guide attempts to keep things as simple as possible, and thus we are using one of the community-provided yum repositories."
 msgstr ""
 
 #: ../../qig.rst:252

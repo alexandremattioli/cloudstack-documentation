@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../../developer_guide.rst:70
 # 706465b6a843445099c5b27e7d83a8d7
-msgid "Developers wanting to build CloudStack from source will want to install the following additional packages. If you dont' want to build from source just jump to the next section."
+msgid "Developers wanting to build CloudStack from source will want to install the following additional packages. If you don't want to build from source just jump to the next section."
 msgstr ""
 
 #: ../../developer_guide.rst:74

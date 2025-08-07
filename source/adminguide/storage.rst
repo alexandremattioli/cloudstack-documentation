@@ -1127,7 +1127,7 @@ Volume Metrics
 Volume statistics are collected on a regular interval (defined by global
 setting volume.stats.interval with a default of 600 seconds). 
 This feature is currently only available for VMware and KVM. 
-Volume stats include include bytes/s and IO/s statistics as shown in the
+Volume stats include bytes/s and IO/s statistics as shown in the
 API output below.
 
 .. code:: bash
