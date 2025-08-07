@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../../troubleshooting.rst:271
 # 417a511656394e62ab6533726322a54e
-msgid "If the pings dont work, run *tcpdump(8)* all over the place to check who is gobbling up the packets. Ultimately, if the switches are not configured correctly, CloudStack networking won't work so fix the physical networking issues before you proceed to the next steps"
+msgid "If the pings don't work, run *tcpdump(8)* all over the place to check who is gobbling up the packets. Ultimately, if the switches are not configured correctly, CloudStack networking won't work so fix the physical networking issues before you proceed to the next steps"
 msgstr ""
 
 #: ../../troubleshooting.rst:276
@@ -338,7 +338,7 @@ msgstr ""
 
 #: ../../troubleshooting.rst:340
 # 4d5d185d16bb4379b29d90b15b9e9855
-msgid "The Virtual Router, SSVM, CPVM *public* interface would be bridged to a physical interface on the host. In the example below, *cloudbr0* is the public interface and CloudStack has correctly created the virtual interfaces bridge. This virtual interface to physical interface mapping is done automatically by CloudStack using the traffic label settings for the Zone. If you have provided correct settings and still dont have a working working Internet, check the switching layer before you debug any further. You can verify traffic using tcpdump on the virtual, physical and bridge interfaces."
+msgid "The Virtual Router, SSVM, CPVM *public* interface would be bridged to a physical interface on the host. In the example below, *cloudbr0* is the public interface and CloudStack has correctly created the virtual interfaces bridge. This virtual interface to physical interface mapping is done automatically by CloudStack using the traffic label settings for the Zone. If you have provided correct settings and still don't have a working Internet, check the switching layer before you debug any further. You can verify traffic using tcpdump on the virtual, physical and bridge interfaces."
 msgstr ""
 
 #: ../../troubleshooting.rst:372

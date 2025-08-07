@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: ../../usage.rst:641
 # 60eda22a3c7d4756847f64ff53b961e2
-msgid "usageid – The ID of the the template, ISO, or snapshot"
+msgid "usageid – The ID of the template, ISO, or snapshot"
 msgstr ""
 
 #: ../../usage.rst:645

@@ -1422,7 +1422,7 @@ msgstr ""
 # 50c89d21fbe341c0bc10c00240d82caf
 #: ../../source/rnotes.rst:1677 ../../source/rnotes.rst:1703
 #: ../../source/rnotes.rst:1729
-msgid "Zone: Choose the zone where this hypervisor is used used"
+msgid "Zone: Choose the zone where this hypervisor is used"
 msgstr ""
 
 # 45960608e6c94d5d9d95ee664a2ce3d2

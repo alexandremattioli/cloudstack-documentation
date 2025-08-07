@@ -152,7 +152,7 @@ as the payload. The following custom headers are sent with the request:
 
    -  **X-CS-Event-ID**. Event ID for which the webhook delivery is made.
 
-   -  **X-CS-Event**. Event for for which the webhook delivery is made.
+   -  **X-CS-Event**. Event for which the webhook delivery is made.
 
    -  **User-Agent**. In the format - *CS-Hookshot/<ACCOUNT_ID>*. Here
       ACCOUNT_ID is the ID of the account which triggered the event.

@@ -479,7 +479,7 @@ A user may decide not to use the provided CKS-ready template and build their own
 
    .. code-block:: bash
       
-      cloud-init cloud-guest-utils conntrack apt-transport-https ca-certificates curl gnupg gnupg-agent software-properties-common gnupg lsb-release python3-json-pointer python3-jsonschema containerd.io
+      cloud-init cloud-guest-utils conntrack apt-transport-https ca-certificates curl gnupg gnupg-agent software-properties-common lsb-release python3-json-pointer python3-jsonschema containerd.io
    
 - A user named `cloud` needs to be created and added to the sudoers list:
    
